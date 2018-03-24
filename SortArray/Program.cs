@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SortArray
 {
@@ -10,6 +6,12 @@ namespace SortArray
     {
         static void Main(string[] args)
         {
+            int[] intArray = new int[]{ 5, 4, 3, 2, 5 };
+
+            Array.Sort(intArray);
+            for (int i = 0; i < intArray.Length; i++)
+                Console.WriteLine(intArray[i]);
+            
         }
     }
 }
